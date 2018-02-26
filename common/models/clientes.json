@@ -1,0 +1,28 @@
+{
+  "name": "CLIENTES",
+  "plural": "clientes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID_CLIENTE": {
+      "type": "number",
+      "id": true,
+      "generated": true    
+    },
+    "NOME": {
+      "type": "string",
+      "required": true
+    },
+    "EMAIL": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
