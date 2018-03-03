@@ -4,7 +4,10 @@
       "loopback/common/models",
       "loopback/server/models",
       "../common/models",
-      "./models"
+      "./models",
+      "loopback/common/kafka",
+      "../common/kafka",
+      "./kafka"
     ],
     "mixins": [
       "loopback/common/mixins",
@@ -15,6 +18,10 @@
   },
   "CLIENTES": {
     "dataSource": "DB_NODE_TEST",
+    "public": true
+  },
+  "wskafka": {
+    "dataSource": null,
     "public": true
   }
 }

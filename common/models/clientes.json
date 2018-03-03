@@ -10,7 +10,7 @@
     "ID_CLIENTE": {
       "type": "number",
       "id": true,
-      "generated": true    
+      "generated": true
     },
     "NOME": {
       "type": "string",

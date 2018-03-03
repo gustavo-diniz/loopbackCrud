@@ -1,4 +1,13 @@
 {
+  "kafkads": {
+    "host": "localhost:2181",
+    "name": "kafkads",
+    "connector": "kafka",
+    "topic": "testeTopico",
+    "autocommit": true,
+    "partition": 0,
+    "fetchmaxwaitms": 1000
+  },
   "DB_NODE_TEST": {
     "host": "localhost",
     "port": 3306,
