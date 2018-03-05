@@ -3,6 +3,7 @@ var kafka = require('kafka-node');
 global._producer = null;
 
 var KafkaProducer = function (){
+
 }
 
 KafkaProducer.getConnection = function(){
