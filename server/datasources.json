@@ -13,7 +13,7 @@
     "port": 3306,
     "url": "mysql://root:gds1903@localhost/DB_NODE_TEST",
     "database": "DB_NODE_TEST",
-    "password": "gds1903",
+    "password": "",
     "name": "DB_NODE_TEST",
     "user": "root",
     "connector": "mysql"
